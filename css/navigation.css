@@ -1,0 +1,38 @@
+body{
+
+    background-image: url("../images/tech.png");
+    background-repeat:  no-repeat;
+    background-size: cover;
+    color: #fff;
+    overflow:hidden;
+    padding-top: 1px;
+}
+ul{
+    list-style: none;
+    padding: 0px;
+}
+ul li{
+    float:left;
+    width:265px;
+    height:40px;
+    background-color: rgba(52, 73, 94, 0.4);
+    text-align: center;
+    line-height: 40px;
+    font-size: 18px;
+    font-family: arial;
+    margin-right: 5px;
+}
+ul li a{
+    text-decoration: none;
+    color: white;
+    display: block;
+}
+ul li a:hover{
+    background-color: #2ECC71;
+}
+ul li ul li{
+    display: none;
+}
+ul li:hover ul li{
+    display:block;
+}
